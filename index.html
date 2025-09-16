@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopSmart | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">ShopSmart</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cart.html">Cart 🛒</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <h2>Welcome to ShopSmart</h2>
+    <p>Find your favorite products at the best prices!</p>
+  </section>
+
+  <!-- Product Grid -->
+  <main class="product-grid">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200" alt="Product 1">
+      <h3>Smartphone</h3>
+      <p>$499</p>
+      <button onclick="addToCart('Smartphone', 499)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200" alt="Product 2">
+      <h3>Headphones</h3>
+      <p>$79</p>
+      <button onclick="addToCart('Headphones', 79)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200" alt="Product 3">
+      <h3>Laptop</h3>
+      <p>$999</p>
+      <button onclick="addToCart('Laptop', 999)">Add to Cart</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
